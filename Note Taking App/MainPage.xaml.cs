@@ -23,7 +23,7 @@ public partial class MainPage : ContentPage
         if (string.IsNullOrWhiteSpace(titleEntry.Text) ||
             string.IsNullOrWhiteSpace(detailsEditor.Text))
         {
-            await DisplayAlert("Error", "Please enter title and details.", "OK");
+            await DisplayAlert("Error", "Please enter title and details.", "Oki");
             return;
         }
 
